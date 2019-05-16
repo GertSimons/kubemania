@@ -1,2 +1,3 @@
 # kubemania
-KubeMania workshop official.
+
+Official repository for KubeMania.
