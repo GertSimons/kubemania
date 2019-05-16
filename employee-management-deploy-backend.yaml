@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: employee-management-backend
-          image: <dockerhub_username>/employee-management-spring:latest
+          image: <dockerhub_username>/spring-hello:latest
           imagePullPolicy: Always
           ports:
             - name: http

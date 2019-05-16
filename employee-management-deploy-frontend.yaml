@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: employee-management-frontend
-          image: <dockerhub_username>/employee-management-angular:latest
+          image: <dockerhub_username>/angular-hello:latest
           imagePullPolicy: Always
           ports:
             - name: http
