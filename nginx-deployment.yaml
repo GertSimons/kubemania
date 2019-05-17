@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
     component: "webserver"
-  name: nginx-deployment
+  name: <username>-nginx-deployment
   namespace: <username>
 spec:
   replicas: 1

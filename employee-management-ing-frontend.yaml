@@ -2,7 +2,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: employee-management-frontend-ingress
+  name: <username>-employee-management-frontend-ingress
   namespace: <username>
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /<username>frontend
@@ -12,6 +12,6 @@ spec:
       http:
         paths:
           - backend:
-              serviceName: employee-management-frontend-service
+              serviceName: <username>-employee-management-frontend-service
               servicePort: 80
             path: /<username>frontend

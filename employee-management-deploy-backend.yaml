@@ -5,7 +5,7 @@ metadata:
   labels:
     app: employee-management-backend
     component: "backend"
-  name: employee-management-backend-deployment
+  name: <username>-employee-management-backend-deployment
   namespace: <username>
 spec:
   replicas: 1

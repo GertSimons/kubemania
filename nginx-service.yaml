@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
     component: "webserver"
-  name: nginx-service
+  name: <username>-nginx-service
   namespace: <username>
 spec:
   ports:

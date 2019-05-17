@@ -5,7 +5,7 @@ metadata:
   labels:
     app: employee-management-frontend
     component: "frontend"
-  name: employee-management-frontend-service
+  name: <username>-employee-management-frontend-service
   namespace: <username>
 spec:
   ports:
